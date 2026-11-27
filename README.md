@@ -59,6 +59,17 @@ Two independent layers:
    python3 verify.py
    ```
 
+## Prior work / independent discovery
+
+Independently, Blake Stone published a proof of this inclusion (and of
+A115772 ⊊ {x OR 4x}) earlier the same day, on 2026-11-27 (committed 03:53 UTC):
+[Two strict containments for ordinary and carryless binary products](https://github.com/blakestone-x/math/blob/main/A115772/README.md).
+The 14-state table there agrees with the one here pair for pair, and the
+strictness witness (15) is the same. The work in this repository was carried
+out without knowledge of Stone's note; the agreement was noticed only after
+both were public, and it serves as a strong cross-check. This repository's
+contribution is the Lean 4 formalization of the result.
+
 ## Provenance
 
 The proof and the Lean formalization were produced by an AI agent
