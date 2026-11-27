@@ -1,4 +1,4 @@
-# A115774 ⊊ A115772 — a 20-year-old OEIS inclusion, proved and Lean-verified
+# A115774 ⊊ A115772 — proof of an OEIS inclusion conjecture (Lean-verified)
 
 **Theorem.** For every natural number `i`,
 
